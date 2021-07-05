@@ -2,10 +2,9 @@ import re
 import os
 import pandas as pd
 
-path = 'MTBF'
+path = 'NAME OF THE PATH'
 
-columns_names=['Base Station', 'Cell ID', 'Date', 'Time', 'pmRrcConnEstabSucc', 'pmRrcConnEstabAtt', 'pmEndcRelUeNormal', 'pmEndcRelUeAbnormalSgnb', 'pmEndcRelUeAbnormalMenb', 'pmEndcRelUeAbnormalSgnbAct', 'pmEndcRelUeAbnormalMenbAct', 'pmPdcpLatTimeDl', 'pmPdcpLatPktTransDl', 'pmCellDowntimeAuto', 'pmTotalTimeDlCellCong', 'pmCellDowntimeMan', 'pmPdcpVolDlDrb']
-
+columns_names=['Base Station', 'Cell ID', 'Date', 'Time', 'COUNTER COLUMNS']
 df = pd.DataFrame(columns=columns_names)
 
 def read_log_file(file_path):
